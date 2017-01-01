@@ -1,1 +1,1 @@
-React Boilerplate with Sass and Foundation
+Timer and Countdown timer using React
