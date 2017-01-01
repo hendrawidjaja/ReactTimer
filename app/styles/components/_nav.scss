@@ -1,12 +1,32 @@
-.top-bar, .top-bar ul {
+.top-bar,
+.top-bar ul {
     background-color: $nav-bkgr;
 }
 
 .top-bar {
+    .top-bar-left {
+        .menu {
+            li {
+                a {
+                    color: #999999;
+
+                    &.active-link {
+                        color: white;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        letter-spacing: normal;
+                    }
+                }
+            }
+        }
+    }
+
     .menu-text {
         color: white;
+        font-size: 0.8rem;
+
         a {
-            color: #aaaaaa;
+            color: #cccccc;
             display: inline;
             padding: 1rem;
         }
